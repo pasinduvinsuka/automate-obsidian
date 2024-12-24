@@ -1,4 +1,4 @@
-# Obsidian Automatic Sync with Git 🌊🌿
+# Obsidian Automatic Sync with Git 
 
 ![image](https://github.com/user-attachments/assets/66dc96f4-86fd-47a2-9047-f1702a4bd550)
 
