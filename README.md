@@ -30,25 +30,25 @@ Before running the script, ensure you have the following:
 
 Clone this repository to your local machine using the following command:
 
-\`\`\`bash
+\\\bash
 git clone https://github.com/yourusername/obsidian-sync.git
-\`\`\`
+\\\
 
 ### Step 2: Configure Git
 
 Ensure your Obsidian vault is initialized as a Git repository. Navigate to your vault directory and initialize Git if it's not done already:
 
-\`\`\`bash
+```bash
 cd path/to/your/obsidian-vault
 git init
 git remote add origin https://github.com/yourusername/your-repo.git
-\`\`\`
+```
 
 You can check the configuration by running:
 
-\`\`\`bash
+\\\bash
 git remote -v
-\`\`\`
+\\\
 
 This should display the remote repository URL.
 
@@ -62,10 +62,10 @@ Download the sync script (`sync_obsidian_with_git.sh`) from this repository or c
 
 Open a text editor and paste the following VBScript:
 
-\`\`\`vbscript
+\\\vbscript
 Set objShell = CreateObject("WScript.Shell")
 objShell.Run "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File ""D:\\Journey\\automate-obsidian\\sync_obsidian_with_git.ps1""", 0, False
-\`\`\`
+\\\
 
 Save this as `sync_obsidian.vbs`.
 
@@ -80,9 +80,9 @@ To ensure the script runs automatically, add the VBScript to your Windows regist
 
 Example:
 
-\`\`\`text
+\\\text
 "C:\\Path\\To\\sync_obsidian.vbs"
-\`\`\`
+\\\
 
 ### Step 5: Test the Setup
 
@@ -105,9 +105,9 @@ You can modify the script to suit your needs:
 
 - **Sync Interval**: Change the sync interval by adjusting the `Start-Sleep` duration in the PowerShell script.
 
-\`\`\`powershell
+\\\powershell
 Start-Sleep -Seconds 600  # Sync every 10 minutes
-\`\`\`
+\\\
 
 - **Logging**: To enable logging, modify the script to log output to a file.
 
