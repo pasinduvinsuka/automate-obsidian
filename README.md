@@ -1,6 +1,6 @@
 # Obsidian Automatic Sync with Git 🌊🌿
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/66dc96f4-86fd-47a2-9047-f1702a4bd550)
 
 
 This repository provides a solution to **automatically sync your Obsidian vault** using Git. It allows seamless synchronization of your notes across multiple devices without the need for manual intervention. The script ensures that any changes made to your vault are pushed to a remote Git repository.
